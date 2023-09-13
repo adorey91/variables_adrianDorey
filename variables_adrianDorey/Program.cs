@@ -14,9 +14,12 @@ namespace variables_adrianDorey
             Console.WriteLine("____________");
             Console.WriteLine();
 
+            // score
+            int score;
+
             Console.WriteLine();
-            Console.WriteLine("Press any key");
-            Console.ReadKey();
+            Console.WriteLine("Press any key to exit");
+            Console.ReadKey(true);
         }
     }
 }
