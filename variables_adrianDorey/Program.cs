@@ -14,8 +14,19 @@ namespace variables_adrianDorey
             Console.WriteLine("____________");
             Console.WriteLine();
 
-            // score
+            //types:
+            // integer = whole numbers  (-3,-2,-1,0,1,2,3)
+
+
+            // declaring score variable to be an "integer" type
             int score;
+
+            //initializing score
+            score = 0;
+
+            //hud
+            Console.WriteLine(score);
+
 
             Console.WriteLine();
             Console.WriteLine("Press any key to exit");
